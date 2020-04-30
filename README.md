@@ -5,11 +5,7 @@ The implementation of the Vigenère encryption algorithm.
 Encryption method Rot 13
 Among the basic encryption algorithms, we can first mention the ROT13 algorithm which consists of shifting each letter of the message by thirteen notches in the alphabet:
 
-a - n
-b - o
-...
-y - l
-z - m
+a - n | b - o |  ........  | y - l | z - m
 
 Mathematically, if the letters of the alphabet are numbered from 0 to 25, the algorithm consists simply in adding 13 to their rank and considering the result modulo 26 to make sure that it remains between 0 and 25.
 Vigenère encryption algorithm
